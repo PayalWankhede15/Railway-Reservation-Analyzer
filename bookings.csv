@@ -1,0 +1,12 @@
+PNR,Train,Class,Fare,Status
+1001,Shatabdi,CC,950,Confirmed
+1002,Shatabdi,CC,950,Confirmed
+1003,Shatabdi,EC,1800,Waiting
+1004,Rajdhani,3A,1700,Confirmed
+1005,Rajdhani,3A,1700,Cancelled
+1006,Rajdhani,2A,2400,Confirmed
+1007,Gondwana,SL,520,Confirmed
+1008,Gondwana,SL,520,Waiting
+1009,Gondwana,3A,1500,Confirmed
+1010,Gondwana,SL,520,Confirmed
+2000,Vande Bharat,3A,1500,waiting
