@@ -1,56 +1,45 @@
-I am a BCA 1st year student with basic knowledge of Python. I have attached my
-project problem statement (Railway Reservation Analyzer), my project report
-format (.docx) and my presentation format (.pptx).
+ I am a BCA 1st year student,
 
-My details:
-- Name: Payal Wankhede
-- ERP ID: RU-26-01098
-- Course: BCA in AI ML with Google Certification
-- Teacher: Mr. Satyaprakash (Google Subject Matter Expert)
-- University: Rungta International Skills University, Bhilai, CG
 
-Please do the following:
+Project name: Railway Reservation Analyzer
+Student: Payal Wankhede
+ERP ID: RU-26-01098
+Course: BCA in AI ML with Google Certification
+Teacher: Mr. Satyaprakash
+University: Rungta International Skills University, Bhilai, CG
+Technologies: Python 3, Pandas, Matplotlib, VS Code
 
-1. PROGRAM
-   Write one Python 3 file (railway_analyzer.py) using Pandas, CSV and
-   Matplotlib. Keep the code simple, with comments, so a beginner can
-   understand it. It must:
-   - ask for the CSV file name and read it with Pandas
-   - show the number of valid records
-   - skip rows with an invalid fare and print:
-     "Warning: Row with PNR 1011 skipped - invalid fare."
-   - print "Error: File 'missing.csv' not found." if the file is missing
-     (no crash)
-   - have a menu: 1. Bookings per train, 2. Revenue per train (Confirmed
-     only), 3. Tickets by status, 4. Exit
-   - draw a bar chart for options 1 and 2
-   - handle a wrong menu choice without crashing
+What the project does:
+It reads a bookings CSV file (columns: PNR, Train, Class, Fare, Status) with
+Pandas. It shows bookings per train, revenue per train (Confirmed tickets
+only) and ticket status counts. It skips rows with an invalid fare, shows an
+error if the file is missing, and draws bar charts with Matplotlib.
 
-2. CSV FILES
-   Make a separate CSV file for each of the 4 test cases in the problem
-   statement.
+Menu in my program:
+1. Bookings per train
+2. Revenue per train (Confirmed only)
+3. Tickets by status
+4. Exit
 
-3. TEST CASES
-   Show how to run each test case and the expected output.
+My files:
+- railway_analyzer.py
+- bookings.csv
+- test1_test4_bookings.csv, test2_single.csv, test3b_invalid_fare.csv
+- screenshots folder (test case outputs and graphs)
+- Project_Report.docx, Project_Presentation.pptx
 
-4. TEST CASE PDF
-   Make a PDF with the input, expected output, actual output and result of
-   each test case. I will send you my screenshots to add.
+Test cases:
+1. Normal input: Gondwana : 4, Rajdhani : 3, Shatabdi : 3, Total bookings: 10
+2. One row file: Shatabdi : Rs. 950, Total confirmed revenue: Rs. 950
+3a. Missing file: Error: File 'missing.csv' not found.
+3b. Invalid fare: Warning: Row with PNR 1011 skipped - invalid fare.
+    Valid records analysed: 10
+4. Revenue: Rajdhani : Rs. 4100, Gondwana : Rs. 2540, Shatabdi : Rs. 1900,
+   Total confirmed revenue: Rs. 8540
 
-5. REPORT
-   Fill my attached report format exactly (same layout, same chapters,
-   table of contents with page numbers). Change the logo and text from IBM
-   to Google, and change the teacher name to Mr. Satyaprakash. Add the test
-   cases, screenshots and graphs, and draw the flowcharts.
+Include these sections in Markdown: title and short description, student
+details table, problem statement, features, technologies used, project
+structure, input file format, how to run (pip install pandas matplotlib, then
+python railway_analyzer.py), test cases table, screenshots section with image
+links (screenshots/filename.png), sample output, future scope, and author.
 
-6. PRESENTATION
-   Fill my attached presentation format exactly, change the IBM logo to
-   Google, and add the test case screenshots and graphs on the screenshot
-   slides.
-
-7. README
-   Write a README.md for GitHub with the student details, features,
-   technologies, how to run, the test cases table and the screenshots section.
-
-Use simple English. Do not change my template design. Tell me clearly
-anything you had to assume.
